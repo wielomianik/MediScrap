@@ -1,4 +1,5 @@
+from medicover import authorize
 
 
 if __name__ == '__main__':
-    print('PyCharm')
+    authorize.login()
